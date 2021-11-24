@@ -5,6 +5,7 @@ import Todos from '../components/Todos';
 import useActions from '../lib/useActions';
 
 const TodoContainer = () => {
+  console.log('hi');
   const { input, todos } = useSelector(({ todos }) => ({
     input: todos.input,
     todos: todos.todos,
